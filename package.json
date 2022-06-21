@@ -6,7 +6,8 @@
     "dev": "vite",
     "build": "vue-tsc --noEmit && vite build",
     "preview": "vite preview",
-    "prettier": "prettier --write ."
+    "prettier": "prettier --write .",
+    "prepare": "husky install"
   },
   "dependencies": {
     "vue": "^3.2.25"
@@ -22,7 +23,8 @@
     "prettier": "^2.7.1",
     "typescript": "^4.5.4",
     "vite": "^2.9.9",
-    "vue-tsc": "^0.34.7"
+    "vue-tsc": "^0.34.7",
+    "husky": "^8.0.0"
   },
   "config": {
     "commitizen": {
